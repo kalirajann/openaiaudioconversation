@@ -22,8 +22,8 @@ This project connects to OpenAI's **Realtime API** using **WebRTC**, enabling **
 
 ### 1️⃣ Clone the Repository
 ```sh
-git clone https://gitlab.com/your-repository-name.git
-cd your-repository-name
+git clone https://gitlab.com/openaiaudioconversation.git
+cd openaiaudioconversation
 ```
 
 ### 2️⃣ Install Dependencies
@@ -43,7 +43,7 @@ OPENAI_API_KEY=your_openai_api_key_here
 ```sh
 node server.js
 ```
-Application will run on **http://localhost:3000**.
+Application can be accessed on **http://localhost:3000**.
 
 ---
 
@@ -62,9 +62,7 @@ Application will run on **http://localhost:3000**.
 - 📊 **Better UI** (chat-style messages).
 - 🔄 **Improved session handling**.
 
-🚀 Want to contribute? Feel free to **fork and submit a merge request!**
 
----
 
 ## License
 This project is **MIT Licensed**. Feel free to use and modify!
