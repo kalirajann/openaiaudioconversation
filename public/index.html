@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Realtime API with WebRTC</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; }
+        #response-container { 
+            margin-top: 20px; 
+            padding: 10px; 
+            border: 1px solid #ccc; 
+            min-height: 150px; 
+            width: 80%; 
+            margin-left: auto; 
+            margin-right: auto; 
+            overflow-y: auto; 
+            max-height: 300px; 
+        }
+        button { margin-top: 10px; padding: 8px; font-size: 16px; }
+    </style>
+</head>
+<body>
+    <h1>Realtime API with WebRTC</h1>
+    <button id="startSession">Start Session</button>
+    <button id="endSession">End Session</button>
+
+    <h2>Conversation:</h2>
+    <div id="response-container">No conversation yet...</div>
+
+    <script src="client.js"></script>
+</body>
+</html>
