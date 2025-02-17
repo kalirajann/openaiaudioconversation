@@ -1,4 +1,4 @@
-# Realtime API with WebRTC
+# Real-time Voice Interactions
 
 ## Overview
 This project connects to OpenAI's **Realtime API** using **WebRTC**, enabling **real-time voice interactions**. The application:
